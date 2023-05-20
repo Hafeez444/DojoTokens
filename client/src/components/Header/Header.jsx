@@ -68,8 +68,7 @@ const Header = () => {
                     to={item.url}
                     className={(navClass) =>
                       navClass.isActive ? "active" : ""
-                    }
-                  >
+                    }>
                     {item.display}
                   </NavLink>
                 </li>
