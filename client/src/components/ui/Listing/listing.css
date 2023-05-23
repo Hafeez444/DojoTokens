@@ -52,17 +52,17 @@
   outline: none;
   padding: 5px 22px;
   background: transparent;
-  border: 1px solid #5142fc;
+  border: 1px solid #00c4f4;
   font-size: 0.9rem;
   color: #fff;
   border-radius: 50px;
   transition: 0.3s;
-  background: #5142fc;
+  background: #00c4f4;
 }
 
 .bid__btn:hover {
   background: #fff;
-  color: #5142fc;
+  color: #00c4f4;
 }
 
 .history__link a {
@@ -83,5 +83,5 @@
 .live__auction__top span a {
   text-decoration: none;
   color: #fff;
-  border-bottom: 1px solid #5142fc;
+  border-bottom: 1px solid #00c4f4;
 }

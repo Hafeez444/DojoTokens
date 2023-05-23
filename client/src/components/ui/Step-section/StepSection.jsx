@@ -11,14 +11,14 @@ const STEP__DATA = [
     icon: "ri-wallet-line",
   },
 
-  {
-    title: "Create your collection",
-    desc: "DOJO ",
-    icon: "ri-layout-masonry-line",
-  },
+  // {
+  //   title: "Create your collection",
+  //   desc: "DOJO ",
+  //   icon: "ri-layout-masonry-line",
+  // },
 
   {
-    title: "Add your NFTs",
+    title: "Mint your NFTs",
     desc: "DOJO ",
     icon: "ri-image-line",
   },

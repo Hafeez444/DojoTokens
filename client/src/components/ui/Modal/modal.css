@@ -56,7 +56,7 @@
   outline: none;
   width: 120px;
   margin: auto;
-  background: #5142fc;
+  background: #00c4f4;
   color: #fff;
   border-radius: 50px;
   font-size: 0.8rem;
@@ -73,7 +73,7 @@
 
 .close__modal i {
   padding: 5px;
-  background: #5142fc;
+  background: #00c4f4;
   color: #fff;
   border-radius: 50%;
 }

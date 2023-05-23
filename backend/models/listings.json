@@ -1,0 +1,60 @@
+[
+    {
+        "id": "01",
+        "title": "Travel Monkey Club",
+        "desc": "DOJO",
+        "imgUrl": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "creator": "Trista Francis",
+        "creatorImg": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "currentBid": 5.89
+    },
+    {
+        "id": "02",
+        "title": "Sir Lion Swag",
+        "desc": "DOJO",
+        "imgUrl": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "creator": "Trista Francis",
+        "creatorImg": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "currentBid": 5.09
+    },
+
+    {
+        "id": "03",
+        "title": "Civilian",
+        "desc": "DOJO",
+        "imgUrl": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "creator": "Trista Francis",
+        "creatorImg": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "currentBid": 6.89
+    },
+
+    {
+        "id": "04",
+        "title": "Guard",
+        "desc": "DOJO",
+        "imgUrl": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "creator": "Trista Francis",
+        "creatorImg": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "currentBid": 7.89
+    },
+
+    {
+        "id": "05",
+        "title": "Travel Monkey Club",
+        "desc": "DOJO",
+        "imgUrl": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "creator": "Trista Francis",
+        "creatorImg": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "currentBid": 4.89
+    },
+
+    {
+        "id": "06",
+        "title": "Sir Lion Swag",
+        "desc": "DOJO",
+        "imgUrl": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "creator": "Trista Francis",
+        "creatorImg": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "currentBid": 4.99
+    }
+  ]

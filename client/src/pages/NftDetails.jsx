@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { NFT__DATA } from "../assets/data/data";
 
-import LiveAuction from "../components/ui/Live-auction/LiveAuction";
+import Listing from "../components/ui/Listing-card/ListingCard";
 
 import "../styles/nft-details.css";
 
@@ -77,7 +77,7 @@ const NftDetails = () => {
         </Container>
       </section>
 
-      <LiveAuction />
+      <Listing />
     </>
   );
 };
