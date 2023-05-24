@@ -17,7 +17,7 @@ const Listing = () => {
   useEffect(() => {
     fetchMyMintNFTs();
   }, [])
-  console.log(mint)
+
   return (
     <section>
       <Container>

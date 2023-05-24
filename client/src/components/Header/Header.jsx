@@ -54,7 +54,7 @@ const Header = () => {
           <div className="logo">
             <h2 className=" d-flex gap-2 align-items-center ">
               <span>
-                <i class="ri-fire-fill"></i>
+                <i className="ri-fire-fill"></i>
               </span>
               DOJO
             </h2>
@@ -79,13 +79,13 @@ const Header = () => {
           <div className="nav__right d-flex align-items-center gap-5 ">
             <button className="btn d-flex gap-2 align-items-center">
               <span>
-                <i class="ri-wallet-line"></i>
+                <i className="ri-wallet-line"></i>
               </span>
               <Link to="/wallet">Connect Wallet</Link>
             </button>
 
             <span className="mobile__menu">
-              <i class="ri-menu-line" onClick={toggleMenu}></i>
+              <i className="ri-menu-line" onClick={toggleMenu}></i>
             </span>
           </div>
         </div>

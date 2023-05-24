@@ -1,22 +1,13 @@
-import { React, useEffect, useState } from "react";
+import { React } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
 import ListingCard from "../Listing-card/ListingCard";
 import "./listing.css";
+import useListing from "../../../hooks/ListingData";
 
 const Listing = () => {
-  const [listing, setListing] = useState([]);
-
-  const fetchListings = () => {
-    return fetch("/listings")
-      .then((response) => response.json())
-      .then((data) => setListing(data));
-  }
-
-  useEffect(() => {
-    fetchListings();
-  }, [])
+  const listing = useListing();
 
   return (
     <section>
