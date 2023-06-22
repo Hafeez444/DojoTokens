@@ -22,20 +22,20 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const Token = await ethers.getContractFactory("DojoTokens");
-  const token = await Token.deploy();
-  await token.deployed();
+  const Dojo = await ethers.getContractFactory("Dojo");
+  const dojo = await Dojo.deploy();
+  await dojo.deployed();
 
-  console.log("Token address:", token.address);
+  console.log("Dojo address:", dojo.address);
 
-  await token.initilizeToken(100000000000, 20, 10); 
-  console.log("Currency Token Initialized to 100000000000");
+  // await dojo.initilizeToken(100000000000, 20, 10); 
+  // console.log("Currency Token Initialized to 100000000000");
 
   // We also save the contract's artifacts and address in the frontend directory
-  saveFrontendFiles(token);
+  saveFrontendFiles(dojo);
 }
 
-function saveFrontendFiles(token) {
+function saveFrontendFiles(dojo) {
   const fs = require("fs");
   const contractsDir = path.join(__dirname, "..", "client", "src", "contracts");
 
@@ -45,14 +45,14 @@ function saveFrontendFiles(token) {
 
   fs.writeFileSync(
     path.join(contractsDir, "contract-address.json"),
-    JSON.stringify({ DojoTokens: token.address }, undefined, 2)
+    JSON.stringify({ Dojo: dojo.address }, undefined, 2)
   );
 
-  const TokenArtifact = artifacts.readArtifactSync("DojoTokens");
+  const DojoArtifact = artifacts.readArtifactSync("Dojo");
 
   fs.writeFileSync(
-    path.join(contractsDir, "DojoTokens.json"),
-    JSON.stringify(TokenArtifact, null, 2)
+    path.join(contractsDir, "Dojo.json"),
+    JSON.stringify(DojoArtifact, null, 2)
   );
 }
 
