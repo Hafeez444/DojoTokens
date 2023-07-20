@@ -9,8 +9,8 @@
 }
 
 .header__shrink {
-  background: #14141f;
-  box-shadow: 2px 2px 4px -2px #00c4f4;
+  background: #fff;
+  box-shadow: 2px 2px 4px -2px #fff;
 }
 
 .navigation {
@@ -28,20 +28,21 @@
 
 .nav__item a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
 }
 
 .nav__item a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .active {
-  color: #00c4f4 !important;
+  color: #000000 !important;
 }
 
 .logo h2 {
-  background: linear-gradient(-45deg, #00c4f4, #00c4f4, #00c4f4, #00c4f4);
+  background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
   background-size: 100% 100%;
+  font-family: 'KARASHA';
   background-clip: text;
   -webkit-text-stroke: 3px transparent;
   -webkit-text-fill-color: #14141f;
@@ -50,26 +51,27 @@
 
 .nav__right .btn {
   padding: 7px 25px;
-  border: 1px solid #00c4f4;
+  /* border: 1px solid #000000; */
   border-radius: 50px;
 }
 
 .nav__right .btn a {
-  color: #fff;
+  color: #5F267A;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
+  font-weight:bold;
 }
 
 .nav__right .btn span i {
-  color: #fff;
+  color: #000000;
 }
 
 .nav__right .btn a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .mobile__menu {
-  color: #fff;
+  color: #000000;
   font-size: 1.3rem;
   display: none;
 }

@@ -15,10 +15,10 @@ const Listing = () => {
         <Row>
           <Col lg="12" className="mb-5">
             <div className="live__auction__top d-flex align-items-center justify-content-between ">
-              <h3>Listing Items</h3>
-              <span>
+              {/* <h3>Listing Items</h3> */}
+              {/* <span>
                 <Link to="/market">Explore more</Link>
-              </span>
+              </span> */}
             </div>
           </Col>
 

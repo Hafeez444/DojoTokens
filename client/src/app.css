@@ -7,13 +7,13 @@
 }
 
 body {
-  background: #14141f !important;
+  background: #FAEDEA !important;
   font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2 {
-  color: #fff;
+  color: #000;
   font-weight: 500;
   font-size: 2rem;
 }
@@ -21,7 +21,7 @@ h2 {
 p {
   font-weight: 400;
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.772);
+  color: #000;
 
   line-height: 35px;
 }

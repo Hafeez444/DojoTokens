@@ -1,13 +1,13 @@
-.hero__section {
-  margin-top: 120px;
+.about__section {
+  margin-top: 10px;
 }
 
-.hero__content h2 {
+.about__content h2 {
   line-height: 55px;
   font-size: 2.5rem;
 }
 
-.hero__content h2 span {
+.about__content h2 span {
   background: linear-gradient(-45deg, #00c4f4, #00c4f4, #00c4f4, #00c4f4);
   background-size: 100% 100%;
   background-clip: text;
@@ -17,8 +17,8 @@
   display: inline-block;
 }
 
-.hero__btns {
-  margin-top: 40px;
+.about__btns {
+  margin-top: 10px;
 }
 
 .explore__btn,
@@ -44,34 +44,36 @@
   color: #000000;
 }
 
-.hero__btns button a:hover {
+.about__btns button a:hover {
   color: #000000;
 }
 
-.hero__img {
-  width: 500px;
+.about__img {
+  width: 150px;
   margin-left: auto;
+  margin-right: 100px;
+  padding-top: 100px;
 }
 
-.hero__img img {
+.about__img img {
   border-radius: 7px;
 }
 
 @media only screen and (max-width: 992px) {
-  .hero__img {
+  .about__img {
     width: 300px;
   }
 
-  .hero__section {
+  .about__section {
     margin-top: 90px;
   }
 
-  .hero__content h2 {
+  .about__content h2 {
     font-size: 1.5rem;
     line-height: 40px;
   }
 
-  .hero__content p {
+  .about__content p {
     font-size: 0.8rem;
     line-height: 25px;
   }
@@ -88,25 +90,9 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .hero__img {
+  .about__img {
     width: 100%;
     margin: auto;
     margin-top: 50px;
   }
-}
-
-.common1__section {
-  background-image: url("../../../src/assets/images/bg.jpg");
-  background-position: center center; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding-top: 50px; 
-  border: 2px solid black;
-  height: 100%;
-  
-}
-
-.common1__section h2 {
-  color: #000000;
 }

@@ -2,33 +2,57 @@ import React from "react";
 import "./seller.css";
 import { Container, Row, Col } from "reactstrap";
 import { SELLER__DATA } from "../../../assets/data/data";
+import Faq from 'react-faq-component';
+
+const data = {
+  title: "FAQs",
+  rows: [
+    {
+      title: "Lorem ipsum dolor sit amet, consectetur adipisc?",
+      content: "Lorem ipsum dolor sit amet, consectetur adipisc?"
+    },
+    {
+      title: "Lorem ipsum dolor sit amet, consectetur adipiscin iusmod?",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscin iusmod?"
+    },
+    {
+      title: "Lorem ipsum dolor sit amet?",
+      content: "Lorem ipsum dolor sit amet?"
+    },
+    {
+      title: "Lorem ipsum dolor sit amet, consectetur ed do eiusmod?",
+      content: "Lorem ipsum dolor sit amet, consectetur ed do eiusmod?"
+    },
+    {
+      title: "Lorem ipsum dolor sit amet, consectetud?",
+      content: "Lorem ipsum dolor sit amet, consectetud?"
+    }]
+}
+
+const styles = {
+  bgColor: '#FAEDEA'
+};
+
+const config = {
+  animate: true,
+  arrowIcon: "V",
+  openOnload: 0,
+  expandIcon: "+",
+  collapseIcon: "-",
+
+};
 
 const SellerSection = () => {
   return (
     <section>
       <Container>
-        <Row>
-          <Col lg="12" className="mb-5">
-            <div className="seller__section-title">
-              <h3>Top Seller</h3>
-            </div>
-          </Col>
-
-          {SELLER__DATA.map((item) => (
-            <Col lg="2" md="3" sm="4" xs="6" key={item.id} className="mb-4">
-              <div className="single__seller-card d-flex align-items-center gap-3">
-                <div className="seller__img">
-                  <img src={item.sellerImg} alt="" className="w-100" />
-                </div>
-
-                <div className="seller__content">
-                  <h6>{item.sellerName}</h6>
-                  <h6>{item.currentBid} ETH</h6>
-                </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
+        <div>
+          <Faq
+            data={data}
+            styles={styles}
+            config={config}
+          />
+        </div>
       </Container>
     </section>
   );

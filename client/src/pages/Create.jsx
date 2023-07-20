@@ -21,7 +21,7 @@ const item = {
 const Create = () => {
   return (
     <>
-      <CommonSection title="Create Item" />
+      {/* <CommonSection title="Create Item" /> */}
 
       <section>
         <Container>
